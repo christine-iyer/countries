@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
                  const countryName = document.createElement('h2');
                  countryName.textContent = country.name.common;
  
-                 const countryRegion = document.createElement('p');
-                 countryRegion.textContent = `Region: ${country.region}`;
+                 const countryRegion = document.createElement('h3');
+                 countryRegion.textContent = `Region: ${country.flag}`;
  
                  const countryPopulation = document.createElement('p');
-                 countryPopulation.textContent = `Population: ${country.population}`;
+                 countryPopulation.textContent = `Population: ${country.population.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
  
                  countryDiv.appendChild(countryIndex);
                  countryDiv.appendChild(countryName);
