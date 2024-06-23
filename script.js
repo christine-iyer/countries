@@ -1,8 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const pickUp = document.getElementById('picker')
+    const discard = document.getElementById('discard')
      const searchButton = document.getElementById('searchButton');
      const countryInput = document.getElementById('countryInput');
      const countriesContainer = document.getElementById('countries');
- 
+     
+     pickUp.addEventListener(('click', function(){
+        console.log('clicked')
+     }))
      searchButton.addEventListener('click', function() {
          const countryName = countryInput.value.trim();
          if (countryName) {
