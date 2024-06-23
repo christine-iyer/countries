@@ -1,41 +1,55 @@
-html {
-     height: 100%;
-     width: 100%;
-   }
-   
-   body {
+body {
      font-family: Arial, sans-serif;
      background-color: #f4f4f4;
      margin: 0;
      padding: 0;
-   }
-   
-   .container {
+ }
+ 
+ .container {
      max-width: 800px;
      margin: 50px auto;
      padding: 20px;
      background-color: white;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   }
-   
-   h1 {
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ }
+ 
+ h1 {
      text-align: center;
      color: #333;
-   }
-   
-   .country {
+ }
+ 
+ .search-box {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ 
+ #countryInput {
+     padding: 10px;
+     font-size: 16px;
+     width: 200px;
+     margin-right: 10px;
+ }
+ 
+ #searchButton {
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+ 
+ .country {
      border: 1px solid #ddd;
      margin: 10px 0;
      padding: 10px;
      border-radius: 5px;
      background-color: #f9f9f9;
-   }
-   
-   .country h2 {
+ }
+ 
+ .country h2 {
      margin: 0;
      font-size: 1.5em;
-   }
-   
-   .country p {
+ }
+ 
+ .country p {
      margin: 5px 0;
-   }
+ }
+ 

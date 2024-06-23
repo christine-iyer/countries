@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link href="style.css" rel="stylesheet" type="text/css" />
-     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     <div class="container">
-          <h1>Country Information</h1>
-          <div id="countries"></div>
+    <div class="container">
+        <h1>Country Information</h1>
+        <div class="search-box">
+            <input type="text" id="countryInput" placeholder="Enter country name">
+            <button id="searchButton">Search</button>
         </div>
-        <script src="script.js"></script>
+        <div id="countries"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
