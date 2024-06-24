@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             wordDiv.className = 'word';
 
                             const wordWord = document.createElement('h3');
-                            wordWord.textContent = word.word;
+                            wordWord.textContent = `${word.word} is a verified word`;
                             wordDiv.appendChild(wordWord);
 
                             wordsContainer.appendChild(wordDiv);
